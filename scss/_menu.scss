@@ -6,11 +6,12 @@
   top: 35px;
   cursor: pointer;
   @include easeOut;
+
   .btn-line {
     width: 28px;
     height: 3px;
     margin: 0 0 5px 0;
-    background: #fff;
+    background: set-text-color($primary-color);
     @include easeOut;
   }
 
@@ -47,6 +48,7 @@
   opacity: 1;
   visibility: hidden;
   opacity: 0.9;
+
   &.show {
     visibility: visible;
   }
@@ -92,7 +94,7 @@
       background: url("/dist/img/portrait.jpg");
       background-size: cover;
       border-radius: 50%;
-      border: solid 3px $secondary-color;
+      border: solid 5px $secondary-color;
     }
   }
   .nav-item {
@@ -113,8 +115,8 @@
     font-size: 30px;
     text-transform: uppercase;
     padding: 1rem 0;
-    font-weight: 300;
-    color: #fff;
+    font-weight: 500;
+    color: set-text-color($primary-color);
     text-decoration: none;
     @include easeOut;
 
