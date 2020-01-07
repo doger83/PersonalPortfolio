@@ -1,17 +1,22 @@
 {
-  "name": "personalportfoliopage",
+  "name": "homepage",
   "version": "1.0.0",
-  "description": "Responsive personal portfolio website",
+  "description": "My personal portfolio Website",
   "main": "index.js",
-  "homepage": "https://doger83.github.io/PersonalPortfolio",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
-    "deploy": "gh-pages -d dist"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doger83/Homepage.git"
   },
   "author": "Dominic Gerweck",
-  "license": "MIT",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/doger83/Homepage/issues"
+  },
+  "homepage": "https://github.com/doger83/Homepage#readme",
   "dependencies": {
-    "gh-pages": "^2.1.1",
     "node-sass": "^4.13.0"
   }
 }
