@@ -1,22 +1,24 @@
 {
-  "name": "homepage",
+  "name": "PersonalPortfolio",
   "version": "1.0.0",
-  "description": "My personal portfolio Website",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass -w src/scss/ -o dist/css/ --recursive"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/doger83/Homepage.git"
+    "url": "git+https://github.com/doger83/PersonalPortfolio.git"
   },
-  "author": "Dominic Gerweck",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/doger83/Homepage/issues"
+    "url": "https://github.com/doger83/PersonalPortfolio/issues"
   },
-  "homepage": "https://github.com/doger83/Homepage#readme",
-  "dependencies": {
-    "node-sass": "^4.13.0"
+  "homepage": "https://github.com/doger83/PersonalPortfolio#readme",
+  "devDependencies": {
+    "node-sass": "^4.13.1"
   }
 }

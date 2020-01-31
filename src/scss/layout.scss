@@ -1,14 +1,17 @@
 @import url("fonts.css");
 @import url("fontello/css/fontello.css");
 @import url("font-awesome/css/font-awesome.min.css");
-#welcome-section p span {
-  color: #f06000; }
 
+#welcome-section p span {
+  color: #f06000;
+}
 #welcome-section p {
-  color: white; }
+  color: white;
+}
 
 #welcome-section a:hover {
-  color: #f06000; }
+  color: #f06000;
+}
 
 /* scrolldown link */
 section .scrolldown a {
@@ -26,43 +29,51 @@ section .scrolldown a {
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out; }
+  transition: all 0.3s ease-in-out;
+}
 
 section .scrolldown a {
   color: #26252a;
   font-size: 42px;
-  line-height: 42px; }
+  line-height: 42px;
+}
 
 section .scrolldown a:hover {
-  color: #f06000; }
+  color: #f06000;
+}
 
 section hr {
   width: 60%;
   margin: 18px auto 24px auto;
   border-color: #fff;
-  border-color: rgba(255, 255, 255, 0.39); }
+  border-color: rgba(255, 255, 255, 0.39);
+}
 
 .welcome-section {
   background: #161415 url(../images/beers-main-bg.jpg) no-repeat center center;
   background-size: cover !important;
   -webkit-background-size: cover !important;
-  height: 100vh; }
-
+  height: 100vh;
+}
 .projects-section {
   background: #2b2b2b;
-  background-image: radial-gradient(white, #44444c, #161619); }
+  background-image: radial-gradient(white, #44444c, #161619);
+}
 
 .projects-grid {
-  background: #2b2b2b url(../images/dark-wood-table-vertical-.jpg) no-repeat center center;
+  background: #2b2b2b url(../images/dark-wood-table-vertical-.jpg) no-repeat
+    center center;
   background-size: cover !important;
   -webkit-background-size: cover !important;
   padding: 50px;
   border: #855e42 1px solid;
   border-radius: 25px;
-  box-shadow: 0 0 50px 15px #000000; }
+  box-shadow: 0 0 50px 15px #000000;
+}
 
 .nav {
-  background: #161415; }
-
+  background: #161415;
+}
 .nav-list a:hover {
-  background: #f06000; }
+  background: #f06000;
+}
