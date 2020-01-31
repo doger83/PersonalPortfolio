@@ -55,9 +55,13 @@ section hr {
   -webkit-background-size: cover !important;
   height: 100vh;
 }
+
+.welcome-section hr {
+  background-color: #f06000;
+}
 .projects-section {
-  background: #2b2b2b;
-  background-image: radial-gradient(white, #44444c, #161619);
+  background: #303841;
+  // background-image: radial-gradient(white, #303841);
 }
 
 .projects-grid {
@@ -76,4 +80,11 @@ section hr {
 }
 .nav-list a:hover {
   background: #f06000;
+}
+
+.contact-section hr {
+  background-color: #f06000;
+}
+.contact-section span {
+  color: #f06000;
 }
